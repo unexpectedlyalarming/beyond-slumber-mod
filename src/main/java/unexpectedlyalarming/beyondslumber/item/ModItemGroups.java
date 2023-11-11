@@ -20,6 +20,10 @@ public class ModItemGroups {
                 entries.add(ModItems.SLEEPING_PILLS);
                 entries.add(ModItems.BACKPACK);
                 entries.add(ModBlocks.DREAM_ALTAR);
+                entries.add(ModItems.SLEEPIUM_DUST);
+                entries.add(ModItems.SLEEPIUM_INGOT);
+                entries.add(ModBlocks.SLEEPIUM_ORE);
+                entries.add(ModBlocks.DEEPSLATE_SLEEPIUM_ORE);
 }).build());
 
     public static void registerItemGroups() {

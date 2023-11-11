@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "beyondslumber:dream_altar"
+    "beyondslumber:dream_altar",
+    "beyondslumber:sleepium_ore",
+    "beyondslumber:deepslate_sleepium_ore"
   ]
 }

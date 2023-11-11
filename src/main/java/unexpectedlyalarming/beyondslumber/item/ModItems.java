@@ -15,12 +15,16 @@ public class ModItems {
     public static final Item DREAMCATCHER = registerItem("dreamcatcher", new Item(new FabricItemSettings()));
     public static final Item SLEEPING_PILLS = registerItem("sleeping_pills", new Item(new FabricItemSettings()));
     public static final Item BACKPACK = registerItem("backpack", new Item(new FabricItemSettings()));
+    public static final Item SLEEPIUM_DUST = registerItem("sleepium_dust", new Item(new FabricItemSettings()));
+    public static final Item SLEEPIUM_INGOT = registerItem("sleepium_ingot", new Item(new FabricItemSettings()));
 
     private static void addItemsToCreativeMenu(FabricItemGroupEntries entries) {
 
         entries.add(DREAMCATCHER);
         entries.add(SLEEPING_PILLS);
         entries.add(BACKPACK);
+        entries.add(SLEEPIUM_DUST);
+        entries.add(SLEEPIUM_INGOT);
     }
 
     private static Item registerItem(String name, Item item) {
