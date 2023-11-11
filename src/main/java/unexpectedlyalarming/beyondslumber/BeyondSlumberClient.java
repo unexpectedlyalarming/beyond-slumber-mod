@@ -7,5 +7,6 @@ public class BeyondSlumberClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
+
     }
 }
