@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import unexpectedlyalarming.beyondslumber.block.ModBlocks;
 import unexpectedlyalarming.beyondslumber.item.ModItemGroups;
 import unexpectedlyalarming.beyondslumber.item.ModItems;
 
@@ -19,6 +20,7 @@ public class BeyondSlumber implements ModInitializer {
 		// Proceed with mild caution.
 		ModItems.RegisterModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Hello Fabric world!");
 	}

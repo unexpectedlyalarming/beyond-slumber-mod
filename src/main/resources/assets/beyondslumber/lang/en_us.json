@@ -1,4 +1,9 @@
 {
   "itemgroup.beyondslumber": "Beyond Slumber",
-  "item.beyondslumber.dreamcatcher": "Dreamcatcher"
+  "item.beyondslumber.dreamcatcher": "Dreamcatcher",
+  "item.beyondslumber.dreamcatcher.desc": "Hold this while you sleep to discover your dreams.",
+  "item.beyondslumber.backpack": "Backpack",
+  "item.beyondslumber.sleeping_pills": "Sleeping Pills",
+  "block.beyondslumber.dream_altar": "Dream Altar"
+
 }

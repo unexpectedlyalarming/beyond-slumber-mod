@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import unexpectedlyalarming.beyondslumber.BeyondSlumber;
+import unexpectedlyalarming.beyondslumber.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -16,6 +17,9 @@ public class ModItemGroups {
     "beyond_slumber_group"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.beyondslumber"))
             .icon(() -> new ItemStack(ModItems.DREAMCATCHER)).entries((displayContext, entries) -> {
                 entries.add(ModItems.DREAMCATCHER);
+                entries.add(ModItems.SLEEPING_PILLS);
+                entries.add(ModItems.BACKPACK);
+                entries.add(ModBlocks.DREAM_ALTAR);
 }).build());
 
     public static void registerItemGroups() {
