@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import unexpectedlyalarming.beyondslumber.block.ModBlocks;
 import unexpectedlyalarming.beyondslumber.item.ModItemGroups;
 import unexpectedlyalarming.beyondslumber.item.ModItems;
+import unexpectedlyalarming.beyondslumber.world.gen.ModWorldGeneration;
 
 public class BeyondSlumber implements ModInitializer {
 
@@ -22,8 +23,11 @@ public class BeyondSlumber implements ModInitializer {
 		ModItems.RegisterModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+		ModWorldGeneration.generateModWorldGen();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_PELLET, 200);
+
+
 
 		LOGGER.info("Hello Fabric world!");
 	}
