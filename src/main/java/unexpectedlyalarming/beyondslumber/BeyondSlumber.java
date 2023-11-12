@@ -2,6 +2,7 @@ package unexpectedlyalarming.beyondslumber;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import unexpectedlyalarming.beyondslumber.block.ModBlocks;
@@ -21,6 +22,8 @@ public class BeyondSlumber implements ModInitializer {
 		ModItems.RegisterModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_PELLET, 200);
 
 		LOGGER.info("Hello Fabric world!");
 	}

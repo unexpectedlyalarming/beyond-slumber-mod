@@ -22,6 +22,7 @@ public class ModBlocks {
     //Ores should use ExpreienceDroppingBlock, not Block.
     public static final Block SLEEPIUM_ORE = registerBlock("sleepium_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE).luminance((state) -> 1), UniformIntProvider.create(1, 5)));
     public static final Block DEEPSLATE_SLEEPIUM_ORE = registerBlock("deepslate_sleepium_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE).luminance((state) -> 1), UniformIntProvider.create(1, 5)));
+    public static final Block RED_LANTERN = registerBlock("red_lantern", new Block(FabricBlockSettings.copyOf(Blocks.REDSTONE_LAMP).luminance((state) -> 15)));
 
 
 

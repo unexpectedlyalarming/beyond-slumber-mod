@@ -24,6 +24,10 @@ public class ModItemGroups {
                 entries.add(ModItems.SLEEPIUM_INGOT);
                 entries.add(ModBlocks.SLEEPIUM_ORE);
                 entries.add(ModBlocks.DEEPSLATE_SLEEPIUM_ORE);
+                entries.add(ModItems.SHEPHERDS_PIE);
+                entries.add(ModItems.DRIED_FLESH);
+                entries.add(ModItems.COAL_PELLET);
+                entries.add(ModBlocks.RED_LANTERN);
 }).build());
 
     public static void registerItemGroups() {

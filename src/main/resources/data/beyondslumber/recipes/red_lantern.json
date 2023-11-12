@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+    "pattern": [
+        "GGG",
+        "GLG",
+        "GGG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:red_stained_glass_pane"
+        },
+        "L": {
+            "item": "minecraft:lantern"
+        }
+    },
+    "result": {
+        "item": "beyondslumber:red_lantern",
+        "count": 1
+    }
+}

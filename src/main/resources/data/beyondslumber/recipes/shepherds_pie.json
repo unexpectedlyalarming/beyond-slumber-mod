@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "PMP",
+    " C "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:baked_potato"
+    },
+    "M": {
+      "item": "minecraft:cooked_mutton"
+    },
+ "C": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "beyondslumber:shepherds_pie",
+    "count": 1
+  }
+}

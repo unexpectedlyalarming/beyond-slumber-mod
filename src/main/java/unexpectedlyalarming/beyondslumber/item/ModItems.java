@@ -18,13 +18,24 @@ public class ModItems {
     public static final Item SLEEPIUM_DUST = registerItem("sleepium_dust", new Item(new FabricItemSettings()));
     public static final Item SLEEPIUM_INGOT = registerItem("sleepium_ingot", new Item(new FabricItemSettings()));
 
+    public static final Item SHEPHERDS_PIE = registerItem("shepherds_pie", new Item(new FabricItemSettings().food(ModFoodComponents.SHEPHERDS_PIE)));
+    public static final Item DRIED_FLESH = registerItem("dried_flesh", new Item(new FabricItemSettings()));
+
+    public static final Item COAL_PELLET = registerItem("coal_pellet", new Item(new FabricItemSettings()));
+
     private static void addItemsToCreativeMenu(FabricItemGroupEntries entries) {
 
         entries.add(DREAMCATCHER);
         entries.add(SLEEPING_PILLS);
         entries.add(BACKPACK);
+
+
         entries.add(SLEEPIUM_DUST);
         entries.add(SLEEPIUM_INGOT);
+        entries.add(SHEPHERDS_PIE);
+        entries.add(DRIED_FLESH);
+        entries.add(COAL_PELLET);
+
     }
 
     private static Item registerItem(String name, Item item) {
@@ -34,5 +45,6 @@ public class ModItems {
     public static void RegisterModItems() {
         BeyondSlumber.LOGGER.info("Registering Mod Items");
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(ModItems::addItemsToCreativeMenu);
+
     }
 }
