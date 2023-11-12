@@ -17,7 +17,6 @@ public class ModItemGroups {
     "beyond_slumber_group"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.beyondslumber"))
             .icon(() -> new ItemStack(ModItems.DREAMCATCHER)).entries((displayContext, entries) -> {
                 entries.add(ModItems.DREAMCATCHER);
-                entries.add(ModItems.SLEEPING_PILLS);
                 entries.add(ModItems.BACKPACK);
                 entries.add(ModBlocks.DREAM_ALTAR);
                 entries.add(ModItems.SLEEPIUM_DUST);
@@ -28,6 +27,9 @@ public class ModItemGroups {
                 entries.add(ModItems.DRIED_FLESH);
                 entries.add(ModItems.COAL_PELLET);
                 entries.add(ModBlocks.RED_LANTERN);
+                entries.add(ModItems.POGO_STICK);
+
+
 }).build());
 
     public static void registerItemGroups() {
