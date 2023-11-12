@@ -25,8 +25,8 @@ public class PogoStickItem extends Item {
             PlayerEntity player = context.getPlayer();
             Block block = context.getWorld().getBlockState(context.getBlockPos()).getBlock();
 
-            if (!player.isTouchingWater() && player.groundCollision) {
-                player.setVelocity(player.getVelocity().x, 1, player.getVelocity().z);
+            if (!player.isTouchingWater() && player.groundCollision && !player.isSneaking()) {
+                player.addVelocity(player.getVelocity().x, 1, player.getVelocity().z);
                 player.velocityModified = true;
 
 
