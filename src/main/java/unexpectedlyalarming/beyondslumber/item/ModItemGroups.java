@@ -28,6 +28,7 @@ public class ModItemGroups {
                 entries.add(ModItems.COAL_PELLET);
                 entries.add(ModBlocks.RED_LANTERN);
                 entries.add(ModItems.POGO_STICK);
+                entries.add(ModItems.GLIDER);
 
 
 }).build());

@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import unexpectedlyalarming.beyondslumber.BeyondSlumber;
+import unexpectedlyalarming.beyondslumber.item.custom.GliderItem;
 import unexpectedlyalarming.beyondslumber.item.custom.PogoStickItem;
 
 public class ModItems {
@@ -26,6 +27,8 @@ public class ModItems {
 
     public static final Item POGO_STICK = registerItem("pogo_stick", new PogoStickItem(new FabricItemSettings().maxDamage(30)));
 
+    public static final Item GLIDER = registerItem("glider", new GliderItem(new FabricItemSettings()));
+
     private static void addItemsToCreativeMenu(FabricItemGroupEntries entries) {
 
         entries.add(DREAMCATCHER);
@@ -38,6 +41,7 @@ public class ModItems {
         entries.add(DRIED_FLESH);
         entries.add(COAL_PELLET);
         entries.add(POGO_STICK);
+        entries.add(GLIDER);
 
 
 
